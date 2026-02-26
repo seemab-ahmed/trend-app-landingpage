@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trend - Il tuo radar sui mercati</title>
+    <meta name="description"
+        content="Trend è una piattaforma di previsione dei mercati finanziari che sfrutta la gamification per validare l'accuratezza degli utenti. Fai previsioni su azioni e crypto, monitora le performance e scala la classifica.">
+    <meta name="keywords" content="trading, previsioni, mercati finanziari, crypto, azioni, gamification, fintech">
+    <meta name="author" content="Trend">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://trend-app.vercel.app/">
+    <meta property="og:title" content="Trend - Il tuo radar sui mercati">
+    <meta property="og:description"
+        content="Piattaforma di previsione dei mercati finanziari con gamification. Fai previsioni su azioni e crypto, monitora le performance e scala la classifica.">
+    <meta property="og:image" content="https://trend-app.vercel.app/assets/guru-forex-trading-1024x683.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://trend-app.vercel.app/">
+    <meta property="twitter:title" content="Trend - Il tuo radar sui mercati">
+    <meta property="twitter:description"
+        content="Piattaforma di previsione dei mercati finanziari con gamification. Fai previsioni su azioni e crypto, monitora le performance e scala la classifica.">
+    <meta property="twitter:image" content="https://trend-app.vercel.app/assets/guru-forex-trading-1024x683.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/test.svg">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/kTcJvh+gCWh8hZOH3dQdp2vU+VZV6XEdt5QmcX4qZcO4Rm0kLgPPPc5mNmjaZVqU5lYzE1Bb8FBOg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- link font awsome -->
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<body>
+    <!-- cursor dots -->
+    <!-- <div class="cursor-dot-outline"></div> -->
+    <!-- <div class="cursor-dot"></div> -->
+    <!-- Header Navigation -->
+    <nav class="nav">
+        <div class="container nav-wrapper">
+            <a href="home.html" class="nav-logo">
+                <img src="./Images/logo-trend.png" alt="trend">
+                <span class="dark-text">Trend</span>
+            </a>
+
+            <div class="nav-right">
+                <button class="nav-toggle" id="navToggle">
+                    <p id="toggleIcon">☰</p>
+                </button>
+                <a href="#email-signup" class="nav-cta mbtn glow-effect" data-i18n="FreeTrial">Prova gratuita</a>
+                <div class="lang-switch">
+                    <span class="lang-option" data-lang="it">IT</span>
+                    <span class="lang-separator">|</span>
+                    <span class="lang-option" data-lang="en">EN</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-progress">
+            <div class="scroll-progress-bar"></div>
+        </div>
+    </nav>
+    <!-- Main banner section -->
+    <section class="hero">
+        <div class="hero-main-dev">
+            <div class="hero-container">
+
+                <div class="hero-content">
+                    <h1>
+                        Prevedi i <span>mercati</span>.<br>
+                        Costruisci la tua reputazione.
+                    </h1>
+
+                    <p>
+                        Trend è una piattaforma di previsioni basata sulle abilità fai previsioni su
+                        azioni e crypto, monitora la tua precisione e costruisci una reputazione
+                        pubblica, senza rischiare denaro reale.
+                    </p>
+
+                    <a href="#" class="hero-btn">
+                        Inizia gratis →
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/iPhone 16 banner.png" alt="App Preview">
+            </div>
+        </div>
+        <!--  multi section start-->
+        <section class="market-section">
+            <div class="melti-container">
+                <div class="market-wrapper">
+                    <div class="market-image">
+                        <img src="Images/malti seguono.png" alt="Market Illustration">
+                    </div>
+                    <div class="market-content">
+                        <h2>Molti seguono il mercato.<br>Pochi possono dimostrare di capirlo davvero.</h2>
+                        <p>
+                            Di finanza si parla ovunque: social, forum, news. Ma manca un modo chiaro per capire chi sa
+                            davvero leggere i movimenti del mercato e chi sta
+                            andando a intuito.
+                        </p>
+                        <p class="highlight">
+                            Trend trasforma la conoscenza dei mercati in risultati misurabili.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  multi section end-->
+    </section>
+
+
+    <section class="trend-section">
+        <div class="trend-container">
+            <h2>Come funziona Trend</h2>
+            <div class="trend-main-dev">
+                <div class="trend-card-dev">
+                    <img src="Images/trend-step1.png" alt="">
+                    <p class="step">step 1</p>
+                    <h4>Fai una previsione</h4>
+                    <p>Scegli un asset e prevedi se il prezzo salirà o scenderà entro un periodo di tempo scelto.</p>
+                </div>
+                <div class="trend-card-dev">
+                    <img src="Images/trend-step2.png" alt="">
+                    <p class="step">step 2</p>
+                    <h4>Monitora i risultati</h4>
+                    <p>Quando la previsione si chiude, Trend calcola la tua precisione e aggiorna il tuo punteggio.</p>
+                </div>
+                <div class="trend-card-dev">
+                    <img src="Images/trend-step3.png" alt="">
+                    <p class="step">step 3</p>
+                    <h4>Costruisci la tua reputazione</h4>
+                    <p>Il tuo storico diventa la tua reputazione, visibile, misurabile e confrontabile con quella degli
+                        altri utenti.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- dashboard -->
+    <section class="dashborad-section">
+        <div class="dashboard-main-dev">
+            <div>
+                <img src="Images/iphone-dahboard.png" alt="">
+            </div>
+            <div class="text-content">
+                <h2>Una dashboard per capire cosa pensa il mercato</h2>
+                <p>La dashboard di Trend ti mostra in tempo reale come si muove il sentiment della community su azioni e
+                    crypto. Vedi subito se prevale l’ottimismo o la cautela e come cambia nel tempo, così puoi farti
+                    un’idea dell’andamento generale del mercato.</p>
+                <p class="link-text">Un riferimento rapido, basato sui dati della community, da usare come supporto alle
+                    tue
+                    decisioni di investimento.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="campagna-section">
+        <div class="campagna-main-dev">
+            <div class="campagna-content">
+                <h2>Campagna Kickstarter conclusa.
+                    5.000€ raccolti grazie alla community.</h2>
+                <p class="discription">La raccolta fondi è terminata e si è chiusa con successo: abbiamo raccolto 5.000€
+                    su Kickstarter. Non stiamo chiedendo soldi e non stiamo facendo nuove raccolte. Il link serve solo
+                    per mostrare
+                    in modo pubblico e verificabile il risultato della campagna e il supporto ricevuto.</p>
+
+                <p>Questo traguardo ci permette di continuare a migliorare Trend e far crescere la community.</p>
+                <button campagna-button>Vedi la campagna su Kickstarter</button>
+                <div>
+                    <img src="Images/campagna.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contruisci section -->
+    <section class="contruisci">
+        <div class="contruisci-main-div">
+            <div class="text-main-dev">
+                <div class="text-content">
+                    <p>Trend è gratuito durante la fase beta: puoi iniziare subito a fare previsioni su azioni e crypto,
+                        costruire il tuo storico e misurare la tua precisione.</p>
+                    <p>
+                        Nei prossimi aggiornamenti arriveranno la versione premium e nuove funzionalità legate a
+                        classifiche, badge e reputazione.</p>
+                    <p>In futuro, i migliori profili potranno avere anche opportunità di guadagno tramite classifiche e
+                        follower.</p>
+
+                </div>
+            </div>
+            </div>
+              <div class="img-dev">
+            <h2>Costruisci ora. Monetizza dopo.</h2>
+            <div>
+                <img src="Images/image 52.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA section -->
+    <section class="cta-section">
+        <div class="cta-container">
+            <div class="cta-left">
+                <h2>
+                    Pronto a mettere alla<br>
+                    prova le tue skill di<br>
+                    mercato?
+                </h2>
+            </div>
+            <div class="cta-right">
+                <p>
+                    Iscriviti oggi, inizia a fare previsioni e costruisci una reputazione
+                    che può diventare un vantaggio reale nel tempo.
+                </p>
+
+                <a href="#" class="cta-btn">
+                    Crea il tuo account gratis →
+                </a>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- footer start -->
+    <footer>
+        <div class="main-div">
+            <p>Contact Us</p>
+            <p class="email">trendmarket.it@gmail.com</p>
+            <div class="social-icon">
+                <img src="Images/logos_facebook.png" alt="facebook">
+                <img src="Images/mdi_instagram.png" alt="instagram">
+                <img src="Images/fa7-brands_x-twitter.png" alt="x">
+                <img src="Images/material-symbols_globe.png" alt="chrome">
+            </div>
+            <p class="copyrigt">© 2025 Trend. Copyright All rights reserved</p>
+
+
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/animattions.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        let lastScrollY = window.scrollY;
+        const sectionObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                const currentScroll = window.scrollY;
+                const scrollingUp = currentScroll < lastScrollY;
+                lastScrollY = currentScroll;
+
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("in-view");
+                } else {
+                    // Only remove if scrolling UP (leaving section from top)
+                    if (scrollingUp) {
+                        entry.target.classList.remove("in-view");
+                    }
+                }
+            });
+        }, {
+            threshold: 0.4
+        });
+        const targetSection = document.querySelector('.zoom-section');
+        if (targetSection) sectionObserver.observe(targetSection);
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const title = document.querySelector(".hero-title");
+            const subtitle = document.querySelector(".hero-subtitle");
+            const cta = document.querySelector(".hero-cta");
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        // Add animation classes
+                        title.classList.add("hero-title-animated");
+                        subtitle.classList.add("hero-subtitle-animated");
+                        cta.classList.add("hero-cta-animated");
+                    } else {
+                        // Delay before removing classes to allow reset animation
+                        setTimeout(() => {
+                            title.classList.remove("hero-title-animated");
+                            subtitle.classList.remove("hero-subtitle-animated");
+                            cta.classList.remove("hero-cta-animated");
+                        }, 300); // 400ms delay before removing
+                    }
+                });
+            }, {
+                threshold: 0.3
+            });
+
+            const heroSection = document.querySelector(".hero_section");
+            if (heroSection) {
+                observer.observe(heroSection);
+            }
+        });
+    </script>
+
+    <script>
+        gsap.registerPlugin(ScrollTrigger);
+
+        function initScrollSteps() {
+            const steps = gsap.utils.toArray(".scroll-step");
+            const offset = 20;
+
+            steps.forEach((step, i) => {
+                const screenWidth = window.innerWidth;
+                let yMultiplier = 40;
+                if (screenWidth <= 480) {
+                    yMultiplier = 50;
+                } else if (screenWidth <= 768) {
+                    yMultiplier = 45;
+                }
+                const yValue = -(yMultiplier - (i * (offset / 2)));
+                const startValue = `${i * window.innerHeight * 0.5} top`;
+                const endValue = `${(i + 1) * window.innerHeight * 0.5} top`;
+                gsap.set(step, {
+                    zIndex: i + 1
+                });
+                gsap.to(step, {
+                    opacity: 1,
+                    y: `${yValue}%`,
+                    scrollTrigger: {
+                        trigger: ".how-it-works-scroll",
+                        start: startValue,
+                        end: endValue,
+                        scrub: true,
+                    }
+                });
+            });
+            ScrollTrigger.create({
+                trigger: ".how-it-works-scroll",
+                start: "top top",
+                end: () => "+=" + (steps.length * window.innerHeight * 0.5),
+                pin: true,
+                scrub: true,
+            });
+        }
+        initScrollSteps();
+        window.addEventListener("resize", () => {
+            ScrollTrigger.getAll().forEach(trigger => trigger.kill());
+            initScrollSteps();
+        });
+    </script>
+
+    <script>
+        document.getElementById("signupForm1").addEventListener("submit", async function (e) {
+            e.preventDefault();
+            const email = document.getElementById("signupEmail").value;
+            const messageDiv = document.getElementById("signupMessage");
+
+            try {
+                const response = await fetch("http://localhost:3000/subscribe", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ email })
+                });
+                const result = await response.json();
+                if (response.ok) {
+                    messageDiv.style.display = "block";
+                    messageDiv.textContent = result.message;
+                    document.getElementById("signupEmail").value = ""; // Clear input
+                } else {
+                    messageDiv.style.display = "block";
+                    messageDiv.textContent = result.error;
+                }
+            } catch (err) {
+                messageDiv.style.display = "block";
+                messageDiv.textContent = "❌ Failed to subscribe.";
+            }
+        });
+
+        // document.getElementById("signupForm1").addEventListener("submit", async function (e) {
+        //     e.preventDefault();
+        //     const email = document.getElementById("signupEmail").value;
+        //     const messageDiv = document.getElementById("signupMessage");
+        //     //   https://script.google.com/macros/s/AKfycbw19ChDcxU0pyz7B3P9oF83AOieue5a6X73V1_8pQ6MiLLBTqZ3hsmy09ErKJLauNs7/exec
+        //     // https://script.google.com/macros/s/AKfycbysxXD5uhrXNTzgxxT-mjfM_3unx-ybM9wU3Dmz6cYkuj9itxTmijsIP0KOD2V-uL0Z/exec
+        //     try {
+        //         const response = await fetch("https://script.google.com/macros/s/AKfycbyQFEx54p9MeXukzIMAECOcEtpxM1kGHm8ocur7Dm-P_lviBaT6C1-OwluHW75TThl5pA/exec", {
+        //         method: "POST",
+        //         headers: { "Content-Type": "application/json" },
+        //         body: JSON.stringify({ type: "newsletter", email }),
+        //         mode: "no-cors",
+        //         });
+
+        //         const result = await response.json();
+        //         if (response.ok) {
+        //         messageDiv.style.display = "block";
+        //         messageDiv.textContent = result.message;
+        //         document.getElementById("signupEmail").value = ""; // Clear input
+        //         } else {
+        //         messageDiv.style.display = "block";
+        //         messageDiv.textContent = result.error;
+        //         }
+        //     } catch (err) {
+        //         messageDiv.style.display = "block";
+        //         messageDiv.textContent = "An error occurred: " + err.message;
+        //     }
+        //     });
+    </script>
+
+    <script type="text/javascript" src="js/slick.min.js"></script>
+
+
+</body>
+
+</html>
