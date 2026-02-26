@@ -1215,6 +1215,52 @@ justify-content: center;
   .hero-image {
     opacity: 0.3;
   }
+  /* perche css updated start*/
+.comparison-section {
+  padding: 77px 20px 113px 20px;
+}
+
+.comparison-title {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.comparison-card {
+  padding: 28px 16px;
+}
+
+.comparison-table thead th {
+  padding-bottom: 10px;
+}
+
+.brand {
+  gap: 8px;
+}
+
+.brand span {
+  font-size: 14px;
+}
+
+.comparison-table tbody td {
+  padding: 16px 0px;
+  font-size: 16px;
+}
+
+.comparison-table tbody td:first-child {
+  text-align: left;
+  width: 40%;
+  font-weight: 500;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+}
+.comparison-table tbody td img {
+  width: 28px;
+}
+
+/* perche css updated end*/
   /* contruisci updated css start */
 .contruisci {
 }
@@ -1248,24 +1294,20 @@ justify-content: center;
 }
 
 .contruisci img {
-  border: 5px solid #211b1b;
-  border-radius: 27px;
   max-width: 200px;
+}
+.contruisci-main-div {
+  padding: 200px 0 0px 0;
+  margin-top: 330px;
 }
 
 .text-content {
- 
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 54px;
+  gap: 36px;
+  padding: 0 24px;
 }
 
 .text-content p {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 170%;
+  font-size: 16px;
 }
 
 /* contruisci updated css end */
@@ -1320,11 +1362,9 @@ justify-content: center;
 
 }
 
-.campagna-section img {
-  max-width: 897px;
-  position: absolute;
-  margin: 0 auto;
-  top: -92px;
+.img-dev img {
+  max-width: 536px;
+  top: -72px;
 }
 
 /* campagna updated css end */
@@ -1426,6 +1466,68 @@ justify-content: center;
     padding: 40px 0;
   }
 
+  /* contruisci updated css start */
+  .contruisci h2 {
+  font-size: 28px;
+  padding: 0 24px;
+  padding-bottom: 20px;
+}
+.text-content p {
+  font-size: 12px;
+}
+.img-dev img {
+  max-width: 363px;
+  top: 300px;
+}
+.img-dev{
+  top: -200px;
+}
+
+  /* contruisci updated css end */
+  /* perche css updated start*/
+.comparison-section {
+  padding: 77px 20px 113px 20px;
+}
+
+.comparison-title {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.comparison-card {
+  padding: 28px 16px;
+}
+
+.comparison-table thead th {
+  padding-bottom: 10px;
+}
+
+.brand {
+  gap: 8px;
+}
+.brand img{
+  width: 24px;
+}
+
+.brand span {
+  font-size: 8px;
+}
+
+.comparison-table tbody td {
+  padding: 16px 0px;
+  font-size: 12px;
+}
+
+.comparison-table tbody td:first-child {
+  text-align: left;
+  width: 40%;
+  font-weight: 500;
+}
+.comparison-table tbody td img {
+  width: 20px;
+}
+
+/* perche css updated end*/
   /* pronta */
   .cta-container {
     gap: 20px;
