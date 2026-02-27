@@ -1,8 +1,4 @@
-@media (max-width: 991px) {
-  .nav-cta.mbtn {
-    display: none !important;
-  }
-}
+
 @media (max-width: 991px) {
   .nav {
     padding: 0.5rem 0.7rem;
@@ -200,7 +196,7 @@ section {
 
 /* Navigation */
 .nav {
-  background: rgba(58, 55, 55, 0.4);
+  background: rgb(248 255 255 / 40%);
   backdrop-filter: blur(100px);
   -webkit-backdrop-filter: blur(100px);
   /* Safari support */
@@ -376,7 +372,6 @@ button#closeToggle {
 }
 
 .nav-links .nav-cta {
-  display: none;
   width: 100%;
 }
 
@@ -499,7 +494,7 @@ section.vedio-section {
 .hero {
   min-height: 100vh;
   overflow: hidden;
-  background: linear-gradient(135deg,
+  background: linear-gradient(155deg,
       rgba(151, 218, 244, 1) 0%,
       rgba(255, 255, 255, 1) 60%);
 }
@@ -527,7 +522,6 @@ section.vedio-section {
 }
 
 .hero-content h1 {
-  font-family: 'Urbanist', sans-serif;
   font-size: 40px;
   font-weight: 700;
   line-height: 120%;
@@ -1017,7 +1011,7 @@ section.vedio-section {
   padding-bottom: 46px;
 }
 
-.campagna-section button {
+.campagna-section a {
   max-width: 472px;
   border-radius: 50px;
   border: none;
@@ -1029,6 +1023,7 @@ section.vedio-section {
   line-height: 125%;
   background: rgba(5, 206, 120, 1);
   margin-top: 24px;
+  text-decoration: none;
 
 }
 
@@ -1665,7 +1660,6 @@ justify-content: center;
   }
 
   .hero-content h1 {
-    font-family: 'Urbanist', sans-serif;
     font-size: 40px;
     font-weight: 700;
     line-height: 120%;
