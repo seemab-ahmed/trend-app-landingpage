@@ -181,6 +181,18 @@ document.addEventListener('DOMContentLoaded', () => {
     // Language translations
     const translations = {
         en: {
+                        // Homepage Market Section
+                        marketSectionTitle: "Many follow the market.<br>Few can prove they truly understand it.",
+                        marketSectionText: "Finance is discussed everywhere: social media, forums, news. But there’s no clear way to know who really understands market movements and who is just guessing.",
+                        marketSectionHighlight: "Trend turns market knowledge into measurable results.",
+                        // Homepage Dashboard Section
+                        dashboardSectionTitle: "A dashboard to understand what the market thinks",
+                        dashboardSectionText: "Trend’s dashboard shows you in real time how the community sentiment moves on stocks and crypto. Instantly see if optimism or caution prevails and how it changes over time, so you can get a sense of the market’s overall direction.",
+                        dashboardSectionLink: "A quick reference, based on community data, to support your investment decisions.",
+                        // Homepage Dashboard2 Section
+                        dashboard2SectionTitle: "Making a prediction takes just seconds",
+                        dashboard2SectionText: "Choose an asset, indicate the price direction, and submit your prediction. Trend records everything automatically, calculates your score, and updates the leaderboard.",
+                        dashboard2SectionLink: "It’s easy to start, but consistency over time makes the difference.",
             // Navigation
             trendIntro: "About Trend",
             investOpportunity: "Invest in the Project",
@@ -354,6 +366,18 @@ document.addEventListener('DOMContentLoaded', () => {
             trendDesc4: "Visibility, reputation, and soon... real earnings.",
         },
         it: {
+                        // Homepage Market Section
+                        marketSectionTitle: "Molti seguono il mercato.<br>Pochi possono dimostrare di capirlo davvero.",
+                        marketSectionText: "Di finanza si parla ovunque: social, forum, news. Ma manca un modo chiaro per capire chi sa davvero leggere i movimenti del mercato e chi sta andando a intuito.",
+                        marketSectionHighlight: "Trend trasforma la conoscenza dei mercati in risultati misurabili.",
+                        // Homepage Dashboard Section
+                        dashboardSectionTitle: "Una dashboard per capire cosa pensa il mercato",
+                        dashboardSectionText: "La dashboard di Trend ti mostra in tempo reale come si muove il sentiment della community su azioni e crypto. Vedi subito se prevale l’ottimismo o la cautela e come cambia nel tempo, così puoi farti un’idea dell’andamento generale del mercato.",
+                        dashboardSectionLink: "Un riferimento rapido, basato sui dati della community, da usare come supporto alle tue decisioni di investimento.",
+                        // Homepage Dashboard2 Section
+                        dashboard2SectionTitle: "Fare una previsione richiede pochi secondi",
+                        dashboard2SectionText: "Scegli un asset, indica la direzione del prezzo e invia la tua previsione. Trend registra tutto in automatico, calcola il punteggio e aggiorna la classifica.",
+                        dashboard2SectionLink: "È facile iniziare, ma è la costanza nel tempo a fare la differenza.",
             // Navigation
             trendIntro: "Cos'è Trend",
             investOpportunity: "Opportunità di investimento",
