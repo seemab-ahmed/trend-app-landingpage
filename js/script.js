@@ -186,7 +186,7 @@ document.addEventListener('DOMContentLoaded', () => {
             investOpportunity: "Invest in the Project",
             joinUs: "Join the Team",
             ourTeam: "Meet the Founders",
-            joinBeta: "Join Beta",
+            joinBeta: "Free Trial",
 
             // About Page
             aboutTitle: "About Trend",
