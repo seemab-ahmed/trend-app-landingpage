@@ -682,45 +682,44 @@ section.vedio-section {
   max-width: 544px;
 }
 
-/* .dashborad-section2 {
+.dashborad-section2 {
   background-image: url('../Images/bg-image-mobile.png');
   background-size: cover;
   background-position: center;
   width: 100%;
   height: 820px;
   overflow: hidden;
-} */
+}
 
-/* .dashboard-main-dev2 {
+.dashboard-main-dev2 {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   gap: 147px;
-} */
-
-/* .dashboard-main-dev2 img {
+}
+ .dashboard-main-dev2 img {
   max-width: 317px;
   height: 4cqh;
-} */
+} 
 
-/* .dashboard-main-dev2 h2 {
+.dashboard-main-dev2 h2 {
   max-width: 544px;
   font-weight: 700;
   font-size: 42px;
   line-height: 130%;
   color: black;
-} */
+}
 
-/* .dashboard-main-dev2 p {
+.dashboard-main-dev2 p {
   font-size: 10px;
   max-width: 544px;
   color: black;
-} */
+}
 
-/* .dashboard-main-dev2 .link-text {
+.dashboard-main-dev2 .link-text {
   color: rgba(31, 148, 243, 1);
-} */
+}
 
 .link-text {
   color: rgba(31, 148, 243, 1);
@@ -1728,6 +1727,7 @@ justify-content: center;
   .melti-container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 24px;
   }
 
   .market-wrapper {
